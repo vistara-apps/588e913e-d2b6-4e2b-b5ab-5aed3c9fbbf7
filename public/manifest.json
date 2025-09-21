@@ -1,0 +1,14 @@
+{
+  "name": "TipSpark",
+  "description": "TipSpark is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://588e913e-d2b6-4e2b-b5ab-5aed3c9fbbf7.vercel.app",
+  "properties": {
+    "app": {
+      "name": "TipSpark",
+      "description": "TipSpark is a Base Mini App built with Zara.",
+      "url": "https://588e913e-d2b6-4e2b-b5ab-5aed3c9fbbf7.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
