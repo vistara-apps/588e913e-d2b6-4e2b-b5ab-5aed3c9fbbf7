@@ -17,7 +17,7 @@ export function TipAmountSelector({
 }: TipAmountSelectorProps) {
   return (
     <div className={cn('space-y-3', className)}>
-      <p className="text-sm text-text-secondary font-medium">Select tip amount:</p>
+      <p className="text-sm text-muted-foreground font-medium">Select tip amount:</p>
       <div className="flex gap-3 justify-center">
         {TIP_AMOUNTS.map((config) => (
           <button
@@ -27,7 +27,7 @@ export function TipAmountSelector({
               'px-4 py-2 rounded-lg border-2 transition-all duration-200 text-sm font-medium',
               selectedAmount === config.amount
                 ? 'border-primary bg-primary text-white'
-                : 'border-gray-200 bg-surface text-text-primary hover:border-primary hover:bg-primary hover:bg-opacity-10'
+                : 'border-gray-200 bg-surface text-foreground hover:border-primary hover:bg-primary hover:bg-opacity-10'
             )}
           >
             <div>{config.label}</div>

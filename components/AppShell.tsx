@@ -29,7 +29,7 @@ export function AppShell({
         {showBackButton && (
           <button
             onClick={handleBack}
-            className="p-2 -ml-2 text-text-primary hover:bg-gray-200 rounded-lg transition-colors duration-200"
+            className="p-2 -ml-2 text-foreground hover:bg-gray-200 rounded-lg transition-colors duration-200"
             aria-label="Go back"
           >
             <ArrowLeftIcon className="w-5 h-5" />

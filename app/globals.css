@@ -7,8 +7,10 @@
   --accent: hsl(30, 80%, 55%);
   --primary: hsl(210, 70%, 50%);
   --surface: hsl(0, 0%, 100%);
-  --text-primary: hsl(210, 30%, 10%);
-  --text-secondary: hsl(210, 30%, 40%);
+  --foreground: hsl(210, 30%, 10%);
+  --muted-foreground: hsl(210, 30%, 40%);
+  --border: hsl(210, 30%, 90%);
+  --card: 0 4px 12px hsla(210, 30%, 10%, 0.08);
 }
 
 * {
@@ -25,7 +27,7 @@ body {
 }
 
 body {
-  color: var(--text-primary);
+  color: var(--foreground);
   background: var(--background);
 }
 
