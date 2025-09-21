@@ -36,7 +36,7 @@ export function BalanceDisplay({ className }: BalanceDisplayProps) {
   }
 
   return (
-    <div className={`flex items-center justify-center space-x-2 text-text-secondary ${className}`}>
+    <div className={`flex items-center justify-center space-x-2 text-muted-foreground ${className}`}>
       <WalletIcon className="w-5 h-5" />
       <span className="text-sm font-medium">Balance: {balance} ETH</span>
     </div>

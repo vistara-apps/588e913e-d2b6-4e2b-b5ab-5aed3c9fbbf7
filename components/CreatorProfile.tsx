@@ -25,8 +25,8 @@ export function CreatorProfile({ creator, className }: CreatorProfileProps) {
           </span>
         </div>
         <div>
-          <p className="font-medium text-text-primary text-sm">{creator.displayName}</p>
-          <p className="text-text-secondary text-xs">@{creator.username}</p>
+          <p className="font-medium text-foreground text-sm">{creator.displayName}</p>
+          <p className="text-muted-foreground text-xs">@{creator.username}</p>
         </div>
       </div>
       

@@ -30,38 +30,38 @@ export function ConfirmationModal({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
       <div className={cn('bg-surface rounded-lg p-6 w-full max-w-sm space-y-4', className)}>
         <div className="text-center">
-          <h3 className="text-lg font-semibold text-text-primary mb-2">
+          <h3 className="text-lg font-semibold text-foreground mb-2">
             Confirm Tip
           </h3>
-          <p className="text-text-secondary text-sm">
+          <p className="text-muted-foreground text-sm">
             Send {tipConfig?.label} ({tipConfig?.usdValue}) to {recipient.displayName}?
           </p>
         </div>
 
         <div className="bg-gray-50 rounded-lg p-4 space-y-2">
           <div className="flex justify-between text-sm">
-            <span className="text-text-secondary">Amount:</span>
-            <span className="font-medium text-text-primary">{tipConfig?.label}</span>
+            <span className="text-muted-foreground">Amount:</span>
+            <span className="font-medium text-foreground">{tipConfig?.label}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-text-secondary">USD Value:</span>
-            <span className="font-medium text-text-primary">{tipConfig?.usdValue}</span>
+            <span className="text-muted-foreground">USD Value:</span>
+            <span className="font-medium text-foreground">{tipConfig?.usdValue}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-text-secondary">Platform Fee (5%):</span>
-            <span className="font-medium text-text-primary">~$0.13</span>
+            <span className="text-muted-foreground">Platform Fee (5%):</span>
+            <span className="font-medium text-foreground">~$0.13</span>
           </div>
           <hr className="my-2" />
           <div className="flex justify-between text-sm font-semibold">
-            <span className="text-text-primary">Total:</span>
-            <span className="text-text-primary">{tipConfig?.usdValue}</span>
+            <span className="text-foreground">Total:</span>
+            <span className="text-foreground">{tipConfig?.usdValue}</span>
           </div>
         </div>
 
         <div className="flex space-x-3">
           <button
             onClick={onCancel}
-            className="flex-1 px-4 py-2 border border-gray-300 text-text-primary rounded-lg hover:bg-gray-50 transition-colors duration-200"
+            className="flex-1 px-4 py-2 border border-gray-300 text-foreground rounded-lg hover:bg-gray-50 transition-colors duration-200"
           >
             Cancel
           </button>

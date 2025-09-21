@@ -51,18 +51,18 @@ export function TipInterface() {
           <div className="gradient-ring w-32 h-32">
             <div className="gradient-ring-inner flex items-center justify-center">
               <div className="text-center">
-                <div className="text-xl font-semibold text-text-primary">tip now</div>
-                <div className="text-sm text-text-secondary">Like 1 likes</div>
+                <div className="text-xl font-semibold text-foreground">tip now</div>
+                <div className="text-sm text-muted-foreground">Like 1 likes</div>
               </div>
             </div>
           </div>
         </div>
 
         <div className="space-y-2">
-          <p className="text-text-primary font-medium">
+          <p className="text-foreground font-medium">
             Tip content creator <span className="font-semibold">$4.50</span> for
           </p>
-          <p className="text-text-primary font-medium">
+          <p className="text-foreground font-medium">
             multi <span className="italic">def</span> likes your posts.
           </p>
         </div>
